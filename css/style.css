@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+}
+/* Navbar style */
+nav{
+    background: red;
+    flex: 0.5;
+}
+/* Banner */
+header{
+    background: blue;
+    /* flex: 1; */
+    height: 50vh;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background: url('../images/flowers-8144828_1280.webp');
+    background-size: cover;
+}
+header h1{
+    color: white;
+    font-size: 90px;
+}
+header p{
+    color: white;
+    font-size: 20px;
+}
+header button{
+    background: #04dcf8;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    color: white;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+ul li{
+    padding: 15px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+section{
+    flex: 4;
+    display: flex;
+}
+aside{
+    background: pink;
+    flex: 0.4;
+}
+main{
+    background: palegreen; 
+    flex: 2;
+}
+footer{
+    background: purple;
+    flex: 1;
+}
+#active{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
